@@ -1,0 +1,16 @@
+{
+    "name": "xnat-stats",
+    "description": "XNAT demographic stats extraction",
+    "docker-image":"greppy/xnat-stats:1.0",
+    "inputs": [
+        {
+            "name": "project",
+            "description": "The project ID.",
+            "type": "string",
+            "required": true
+        }
+    ],
+    "run" : {
+        "command-line": "cd /tmp; groovy GraphStats.groovy -u $XNAT_USER -p $XNAT_PASS -s $XNAT_HOST -j #project#"
+    }
+}

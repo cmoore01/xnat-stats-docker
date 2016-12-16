@@ -1,0 +1,70 @@
+id : Stats_ex
+runningTitle : XNAT stats example project
+title : XNAT demographic statistic extraction sample project
+subjects :
+    subj_001 :
+        gender : Male
+        age : 23
+        education : 16
+        height : 72
+        weight : 250
+    subj_002 :
+        gender : Female
+        age : 40
+        education : 20
+        height : 66
+        weight : 120
+    subj_003 :
+        gender : Female
+        age : 30
+        education : 12
+        height : 68
+        weight : 145
+    subj_004 :
+        gender : Male
+        age : 29
+        education : 13
+        height : 68
+        weight : 160
+    subj_005 :
+        gender : Female
+        age : 56
+        education : 22
+        height : 70
+        weight : 180
+    subj_006 :
+        gender : Female
+        age : 43
+        education : 12
+        height : 64
+        weight : 150
+    subj_007 :
+        gender : Female
+        age : 54
+        education : 16
+        height : 72
+        weight : 180
+    subj_008 :
+        gender : Male
+        age : 58
+        education : 22
+        height : 76
+        weight : 280
+    subj_009 :
+        gender : Female
+        age : 43
+        education : 18
+        height : 58
+        weight : 110
+    subj_010 :
+        gender : Male
+        age : 59
+        education : 12
+        height : 68
+        weight : 160
+    subj_011 :
+        gender : Female
+        age : 33
+        education : 14
+        height : 67
+        weight : 170
